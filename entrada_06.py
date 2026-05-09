@@ -8,4 +8,4 @@ altura = float(input('digite a altura: '))
 IMC = peso / (altura * altura)
 
 # exibir os resultados 
-print('o resultado da IMC e; ',IMC)
+print(f'o resultado do IMC e: {IMC:.2f}')
